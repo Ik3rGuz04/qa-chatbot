@@ -84,44 +84,6 @@ function LoginScreen({ onLogin, correctUser, correctPass }) {
             </p>
           </div>
 
-          <div className="info-stats">
-            <div className="stat-card">
-              <div className="stat-top">
-                <span className="stat-label">Pruebas Activas</span>
-                <span className="stat-icon">▶</span>
-              </div>
-              <div className="stat-value">1,842 <span>/min</span></div>
-              <div className="stat-foot"><span className="good">↑ 99.98%</span> tasa de éxito</div>
-            </div>
-
-            <div className="stat-card">
-              <div className="stat-top">
-                <span className="stat-label">Agentes IA QA</span>
-                <span className="stat-icon">🤖</span>
-              </div>
-              <div className="stat-value">24 <span>nodos</span></div>
-              <div className="stat-foot"><span className="pulse-dot small"></span> Listos para dispatch</div>
-            </div>
-
-            <div className="stat-card">
-              <div className="stat-top">
-                <span className="stat-label">Latencia E2E</span>
-                <span className="stat-icon">⚡</span>
-              </div>
-              <div className="stat-value">14<span>ms</span></div>
-              <div className="stat-foot">● Enlace seguro TLS 1.3</div>
-            </div>
-
-            <div className="stat-card">
-              <div className="stat-top">
-                <span className="stat-label">Cumplimiento SecOps</span>
-                <span className="stat-icon">🛡</span>
-              </div>
-              <div className="stat-value">Nivel IV</div>
-              <div className="stat-foot">Cifrado Zero-Trust</div>
-            </div>
-          </div>
-
           <div className="info-avatars">
             <div className="avatar-stack">
               <div className="avatar-chip">QA</div>
@@ -163,7 +125,7 @@ function LoginScreen({ onLogin, correctUser, correctPass }) {
               <div className="field-label-row">
                 <label htmlFor="usernameInput">
                   <span className="label-icon">🪪</span>
-                  Usuario QA
+                  Usuario
                 </label>
               </div>
               <input
@@ -245,7 +207,7 @@ function LoginScreen({ onLogin, correctUser, correctPass }) {
       <footer className="login-footer">
         <div className="footer-left">
           <span>⌘</span>
-          <span>Agente Autonomous Verification Suite</span>
+          <span>Agente Cliente / QA</span>
           <span className="footer-sep">• Enterprise SecOps v4.2</span>
         </div>
         <div className="footer-right">
