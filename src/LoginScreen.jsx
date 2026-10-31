@@ -196,11 +196,6 @@ function LoginScreen({ onLogin, correctUser, correctPass }) {
               <p>QA Core v2.4 • TLS 1.3 • Cifrado Asistido</p>
             </div>
           </form>
-
-          <div className="telemetry-pill">
-            <span className="pulse-dot"></span>
-            <span>Servidor Telemetría Operativo (14ms)</span>
-          </div>
         </section>
       </main>
 
