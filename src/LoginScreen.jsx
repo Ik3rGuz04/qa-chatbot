@@ -187,14 +187,6 @@ function LoginScreen({ onLogin, correctUser, correctPass }) {
               <span>{loading ? 'Validando credenciales...' : 'Ingresar al Sistema'}</span>
               <span className={loading ? 'spin' : ''}>{loading ? '⟳' : '→'}</span>
             </button>
-
-            <div className="card-footer">
-              <div className="footer-secure">
-                <span>🔐</span>
-                <span>Entorno interno protegido</span>
-              </div>
-              <p>QA Core v2.4 • TLS 1.3 • Cifrado Asistido</p>
-            </div>
           </form>
         </section>
       </main>
